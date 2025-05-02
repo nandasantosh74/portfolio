@@ -1,0 +1,12 @@
+\chapter{Introduction to the Project}
+
+This project presents a comprehensive approach combining statistical differential gene expression analysis with biological network interpretation. Our focus is to provide a detailed and validated understanding of molecular differences between schizophrenic and healthy control samples, using a well-structured computational pipeline.
+
+
+
+\section{Background of project?}
+Understanding the genetic foundations of diseases has long been a central theme in biomedical research. With the advent of next-generation sequencing technologies, the availability of large-scale RNA-Seq datasets has empowered researchers to analyze gene expression at an unprecedented depth. Diseases such as schizophrenia, characterized by complex genetic architectures, require sophisticated computational frameworks to decode the molecular events underlying their pathology. Genetic network analysis, when integrated with differential gene expression techniques, provides a window into the intricate biological processes that differentiate healthy individuals from those afflicted by disorders. In this project, we utilized the GSE80655 RNA-Seq dataset containing samples from the Anterior Cingulate Cortex — a brain region highly implicated in psychiatric conditions — to perform a robust analysis using two widely accepted tools: DESeq2 and edgeR.
+\cite{Bradshaw}
+
+\section{Scope of the Project?}
+The primary focus of this project was to identify differentially expressed genes that are statistically significant between schizophrenic and control samples and to interpret these findings through visualization and analysis. By applying DESeq2 and edgeR, we created a comparative framework to cross-validate the results and enhance the reliability of detected biomarkers. Furthermore, through the generation of MA plots and the examination of dispersion patterns, we sought to understand the biological variance present within the dataset. Our scope extends beyond simple gene listing to network-level thinking, where the interconnectedness of genes and their collective shifts can illuminate critical disease mechanisms. The project provides a complete pipeline starting from raw data preprocessing to biological interpretation, establishing a template for future studies in disease detection through genetic network•analysis. \cite{Bradshaw}
